@@ -20,10 +20,10 @@ const string = `.skin
   }
   
   .face_1 {
-    margin: 50px auto;
+    margin: 25px auto;
     position: relative;
-    width: 420px;
-    height: 400px;
+    width: 210px;
+    height: 200px;
     background-color: #1e90ff;
     border: 2px solid #000000;
     border-radius: 47% 47% 45% 45%;
@@ -32,9 +32,9 @@ const string = `.skin
   .face_2 {
     position: absolute;
     bottom: 0;
-    left: 30px;
-    width: 360px;
-    height: 300px;
+    left: 15px;
+    width: 180px;
+    height: 150px;
     background-color: #fff;
     border: 2px solid #000;
     border-radius: 50% 50% 45% 45%;
@@ -42,16 +42,16 @@ const string = `.skin
   
   .eye_box {
     position: absolute;
-    top: -45px;
-    right: 90px;
-    width: 180px;
+    top: -27.5px;
+    right: 45px;
+    width: 90px;
     height: auto;
   }
   
   .eye_left,
   .eye_right {
-    width: 90px;
-    height: 110px;
+    width: 45px;
+    height: 55px;
     background-color: #fff;
     border: 2px solid #000;
     border-radius: 46%;
@@ -66,25 +66,25 @@ const string = `.skin
   .puli_left,
   .puli_right {
     position: absolute;
-    top: 60px;
-    width: 20px;
-    height: 20px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
     background-color: #000;
     border-radius: 50%;
   }
   .puli_left {
-    left: 60px;
+    left: 30px;
   }
   .puli_right {
-    right: 60px;
+    right: 30px;
   }
   
   .nose_1 {
     position: absolute;
-    top: 47px;
-    left: 151px;
-    width: 50px;
-    height: 50px;
+    top: 18.5px;
+    left: 75.5px;
+    width: 25px;
+    height: 25px;
     background-color: #ff0000;
     border: 2px solid #000;
     border-radius: 50%;
@@ -92,30 +92,30 @@ const string = `.skin
   
   .nose_1_shadow {
     position: absolute;
-    top: 10px;
-    left: 25px;
-    width: 15px;
-    height: 15px;
+    top: 5px;
+    left: 11px;
+    width: 11px;
+    height: 11px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0px 0px 2px 2px rgba(255, 255, 0.4);
   }
   
   .nose_2 {
-    height: 130px;
-    width: 2px;
+    height: 70px;
+    width: 1px;
     position: absolute;
-    top: 95px;
-    left: 176px;
+    top: 42.5px;
+    left: 88px;
     border-left: 2px solid #000000;
   }
   
   .mouth {
     position: absolute;
-    top: 25px;
-    left: 60px;
-    height: 200px;
-    width: 240px;
+    top: 12.5px;
+    left: 30px;
+    height: 100px;
+    width: 120px;
     border-bottom: 2px solid #000000;
     border-radius: 0 0 45% 45%;
   }
@@ -123,9 +123,9 @@ const string = `.skin
   .whisker_left,
   .whisker_right {
     position: absolute;
-    top: 60px;
-    width: 180px;
-    height: 180px;
+    top: 30px;
+    width: 90px;
+    height: 90px;
   }
   .whisker_left {
     left: 0;
@@ -137,103 +137,104 @@ const string = `.skin
   .whisker_left span:nth-child(1),
   .whisker_right span:nth-child(1) {
     position: absolute;
-    top: 30px;
-    height: 60px;
-    width: 100px;
+    top: 15px;
+    height: 30px;
+    width: 50px;
     border-top: 2px solid #000000;
   }
   .whisker_left span:nth-child(1) {
-    left: 30px;
-    transform: rotate(20deg);
+    left: 15px;
+    transform: rotate(10deg);
   }
   .whisker_right span:nth-child(1) {
-    right: 30px;
-    transform: rotate(-20deg);
+    right: 15px;
+    transform: rotate(-10deg);
   }
   
   .whisker_left span:nth-child(2),
   .whisker_right span:nth-child(2) {
     position: absolute;
-    top: 60px;
-    height: 60px;
-    width: 100px;
+    top: 30px;
+    height: 30px;
+    width: 50px;
     border-top: 2px solid #000;
   }
   .whisker_left span:nth-child(2) {
-    left: 35px;
+    left: 17.5px;
   }
   .whisker_right span:nth-child(2) {
-    right: 35px;
+    right: 17.5px;
   }
   
   .whisker_left span:nth-child(3),
   .whisker_right span:nth-child(3) {
     position: absolute;
-    top: 90px;
-    height: 60px;
-    width: 100px;
+    top: 45px;
+    height: 30px;
+    width: 50px;
     border-top: 2px solid #000;
   }
   .whisker_left span:nth-child(3) {
-    left: 50px;
-    transform: rotate(-20deg);
+    left: 21px;
+    transform: rotate(-10deg);
   }
   .whisker_right span:nth-child(3) {
-    right: 50px;
-    transform: rotate(20deg);
+    right: 21px;
+    transform: rotate(10deg);
   }
   
   .collar {
     position: absolute;
-    top: 350px;
-    left: 50px;
-    width: 320px;
-    height: 50px;
+    top: 175px;
+    left: 25px;
+    width: 160px;
+    height: 25px;
     background-color: #ff0000;
     border: 2px solid #000;
     border-radius: 30px;
   }
   .bell_1 {
     position: absolute;
-    top: 15px;
-    left: 130px;
-    width: 60px;
-    height: 60px;
+    top: 7.5px;
+    left: 65px;
+    width: 30px;
+    height: 30px;
     background-color: #ffff00;
     border: 2px solid #000;
     border-radius: 50%;
   }
   .bell_2 {
     position: absolute;
-    top: 17px;
-    left: 1px;
-    width: 53px;
-    height: 16px;
+    top: 8.5px;
+    left: -0.5px;
+    width: 26.5px;
+    height: 8px;
     border-top: 2px solid #000;
   }
   .bell_3 {
     position: absolute;
-    top: 22px;
-    width: 57px;
-    height: 23px;
+    top: 11px;
+    left: -0.5px;
+    width: 28.5px;
+    height: 11.5px;
     border-top: 2px solid #000;
   }
   .bell_4 {
     position: absolute;
-    top: 30px;
-    left: 20px;
-    width: 15px;
-    height: 10px;
+    top: 15px;
+    left: 10px;
+    width: 7.5px;
+    height: 5px;
     background-color: #000;
     border-radius: 50%;
   }
   .bell_5 {
     position: absolute;
-    top: 37px;
-    left: 27px;
-    width: 30px;
-    height: 20px;
+    top: 18.5px;
+    left: 12.5px;
+    width: 15px;
+    height: 10px;
     border-left: 2px solid #000;
-  }`
+  }`;
 
-export default string
+export default string;
